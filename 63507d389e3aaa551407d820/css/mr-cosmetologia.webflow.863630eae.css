@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 03 2022 02:32:28 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 03 2022 02:45:41 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3774,6 +3774,14 @@ figcaption {
 
   .hide-mobile-portrait {
     display: none;
+  }
+
+  .navbar1_dropdown-list.w--open {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .header1_component {
