@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 03 2022 02:05:15 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Nov 03 2022 02:10:14 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1392,6 +1392,13 @@ figcaption {
   grid-row-gap: 1rem;
 }
 
+.button-group.is-centered {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .hide {
   display: none;
 }
@@ -1748,6 +1755,10 @@ figcaption {
   background-color: transparent;
 }
 
+.header1_image-wrapper {
+  display: none;
+}
+
 .section_header1 {
   position: static;
   display: block;
@@ -1768,8 +1779,14 @@ figcaption {
 }
 
 .header1_component {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1781,6 +1798,7 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  text-align: center;
 }
 
 .button-group-2 {
