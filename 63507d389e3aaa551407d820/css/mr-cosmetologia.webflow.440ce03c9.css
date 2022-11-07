@@ -1,4 +1,4 @@
-/* Generated on: Thu Nov 03 2022 02:45:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Nov 07 2022 05:12:30 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2054,7 +2054,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
